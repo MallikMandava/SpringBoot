@@ -35,7 +35,7 @@ public class LamdaUnit2 {
 		System.out.println("------------------------------");
 		System.out.println("Starts With A");
 		System.out.println("------------------------------");
-		printconditionally(plist,p -> p.getfName().startsWith("A"));
+		printconditionally(plist,p -> p.getfName().startsWith("Z"));
 
 	}
 	

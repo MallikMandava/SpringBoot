@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79034220-b9cb-4e5c-8453-8552ec7e4d13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../bin/com/mmandava/mallik/LamdaAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/com/mmandava/mallik/LamdaAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mmandava/mallik/LamdaPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/com/mmandava/mallik/LamdaPrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mmandava/mallik/LamdaUnit1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/com/mmandava/mallik/LamdaUnit1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mmandava/mallik/LamdaUnit2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/com/mmandava/mallik/LamdaUnit2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/mmandava/mallik/LamdaUnit2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/com/mmandava/mallik/LamdaUnit2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
