@@ -23,10 +23,18 @@ spring:
           predicates:
             - Path=/departments/**
 
+        - id: JWT-SECURITY
+          uri: lb://JWT-SECURITY
+          predicates:
+            - Path=/authenticate/** , /welcome/**
+
+
         - id: USER-SERVICE
           uri: lb://USER-SERVICE
           predicates:
             - Path=/**
+
+
 
 
 
