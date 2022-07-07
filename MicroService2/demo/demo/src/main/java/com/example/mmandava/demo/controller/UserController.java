@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import javax.ws.rs.Path;
 import java.util.List;
 
 @RestController
@@ -32,11 +33,16 @@ public class UserController {
 
     }
 
-//   @GetMapping("/users/name/{userId}")
-//    public User fetchUserById(@PathVariable("userId")  Long userId) {
-//        return userService.fetchUserById(userId);
-//    }
+   @GetMapping("/users/name/{userId}")
+    public User fetchUserById(@PathVariable("userId")  Long userId) {
+        return userService.fetchUserById(userId);
+    }
 
+
+    @GetMapping("/users/userinfo/{name}")
+    public  User fetchFirstByName(@PathVariable("name") String firstName)  {
+        return userService.fetchFirstByName(firstName);
+    }
 
 
    @GetMapping("/{id}")

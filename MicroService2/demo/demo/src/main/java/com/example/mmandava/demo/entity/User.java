@@ -23,6 +23,17 @@ public class User {
     private String firstName;
     private String lastName;
 
+    public String getPassword() {
+        return Password;
+    }
+
+    public void setPassword(String password) {
+        Password = password;
+    }
+
+    private String Password;
+
+
     public Long getUserId() {
         return userId;
     }

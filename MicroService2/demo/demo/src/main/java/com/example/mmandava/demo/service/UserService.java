@@ -12,4 +12,5 @@ public interface UserService {
     public List<User> fetchUserList();
     public User fetchUserById(Long userId);
 
+    public User fetchFirstByName(String firstName);
 }

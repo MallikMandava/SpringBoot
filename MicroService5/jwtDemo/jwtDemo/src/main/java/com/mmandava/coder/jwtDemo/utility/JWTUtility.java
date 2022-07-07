@@ -1,4 +1,5 @@
-package com.mmandava.coder.jwtDemo.utiltiy;
+package com.mmandava.coder.jwtDemo.utility;
+
 
 import lombok.*;
 import io.jsonwebtoken.Claims;

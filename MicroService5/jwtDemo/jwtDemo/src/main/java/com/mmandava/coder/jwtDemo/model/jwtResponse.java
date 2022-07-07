@@ -1,4 +1,4 @@
-package com.mmandava.coder.jwtDemo.mvc;
+package com.mmandava.coder.jwtDemo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

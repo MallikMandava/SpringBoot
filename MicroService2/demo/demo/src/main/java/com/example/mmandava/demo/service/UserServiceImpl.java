@@ -36,6 +36,7 @@ public class UserServiceImpl implements UserService {
 
         Department department = restTemplate.getForObject("http://DEPARTMENT-SERVICE/departments/" + user.getDepartmentId() ,Department.class);
 
+
         vo.setDepartment(department);
 
         return vo;
@@ -57,6 +58,11 @@ public class UserServiceImpl implements UserService {
    @Override
     public User fetchUserById(Long userId)  {
         return userRepository.findByUserId(userId);
+    }
+
+    @Override
+    public User fetchFirstByName(String firstName) {
+        return userRepository.findByFirstName(firstName);
     }
 
 
