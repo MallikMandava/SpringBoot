@@ -1,0 +1,35 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+  <!-- load the properties file hotel.properties -->
+    <context:property-placeholder location="classpath:hotel.properties" />
+    <!--bean id="foodbean" class="com.example.mmandava.springlearning.FoodItems.IndianFood">
+        <constructor-arg ref="InPlateItemsIndian"/>
+        <property name="plateintems" ref="InPlateItemsIndian" />
+        <property name="hotelName" value="Udipi"/>
+
+
+    </bean>
+
+    <bean id="InPlateItemsIndian" class="com.example.mmandava.springlearning.FoodItems.InPlateItemsIndian">
+
+    </bean-->
+
+    <bean id="foodbean" class="com.example.mmandava.springlearning.FoodItems.ChineeseFood">
+        <!-- constructor-arg ref="InPlateItemsChineese"/-->
+        <property name="chineeseItems" ref="InPlateItemsChineese" />
+        <property name="hotelName" value="${foo.hotelName}"/>
+        <!-- Inject Literal values -->
+
+    </bean>
+
+    <bean id="InPlateItemsChineese" class="com.example.mmandava.springlearning.FoodItems.InPlateItemsChineese">
+
+    </bean>
+
+
+
+</beans>
